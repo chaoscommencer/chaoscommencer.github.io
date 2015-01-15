@@ -5,14 +5,15 @@ animation: "bounceOut"
 # Images
 
 logo: "logo.svg"
-hero: "hero-bg.jpg"
+hero: "Mt._Doom_by_Dylan_Cole_by_exsanguinatus.jpg" # "hero-bg.jpg"
 avatar: "travitar.jpg"
 
 # Colors
 
-accent: "#c99065"
+accent: "#c99065" # #eeaa00, #cc8800
 accent-light: "#e1c184"
 bgcolor: "#e5eaee"
+h1Color: "#eeaa00"
 
 documentBackgroundColor: "#fff"
 headlineColor: "#333"

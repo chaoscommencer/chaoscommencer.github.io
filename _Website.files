@@ -122,7 +122,7 @@ assets/css/1-tools/_spinner.scss
 
 assets/css/2-base/_-base-dir.scss
 assets/css/2-base/_base.scss
-assets/css/2-base/_placeholders.sass
+assets/css/2-base/_placeholders.scss
 
 assets/css/3-sections/_-sections-dir.sass
 assets/css/3-sections/_about.sass

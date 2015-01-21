@@ -23,10 +23,25 @@ $accent: {{ site.data.layout.accent }};
 $accent-light: {{ site.data.layout.accent-light }};
 $bgcolor: {{ site.data.layout.bgcolor }};
 $h1Color: {{ site.data.layout.h1Color }};
+$h2Color: {{ site.data.layout.h2Color }};
+$h3Color: {{ site.data.layout.h3Color }};
+$h4Color: {{ site.data.layout.h4Color }};
+$h5Color: {{ site.data.layout.h5Color }};
+$h6Color: {{ site.data.layout.h6Color }};
+$pColor: {{ site.data.layout.pColor }};
+
+// Set some sizes as sass variables
+$h1Size: {{ site.data.layout.h1Size }};
+$h2Size: {{ site.data.layout.h2Size }};
+$h3Size: {{ site.data.layout.h3Size }};
+$h4Size: {{ site.data.layout.h4Size }};
+$h5Size: {{ site.data.layout.h5Size }};
+$h6Size: {{ site.data.layout.h6Size }};
+$pSize: {{ site.data.layout.pSize }};
 
 $documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }};
 $headlineColor: {{ site.data.layout.headlineColor }};
-$textColor: {{ site.data.layout.textColor }};
+$pColor: {{ site.data.layout.pColor }};
 $linkColor: {{ site.data.layout.linkColor }};
 $selectionColor: {{ site.data.layout.selectionColor }};
 

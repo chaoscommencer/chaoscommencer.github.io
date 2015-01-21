@@ -27,15 +27,15 @@ header
             // &:hover
             //     color: rgba(0,0,0,1)
 
-    h1
+    h2
         text-align: center
         font:
             size: 72px
             weight: 700
             family: $helvetica // $lucida-grande
-        color: $h1Color // gold
+        // color: $h2Color // gold
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
-        // -webkit-text-fill-color: $h1Color
+        // -webkit-text-fill-color: $h2Color
         // -webkit-text-stroke: 1px black
         // text-transform: uppercase
         letter-spacing: 0.05em
@@ -46,13 +46,13 @@ header
         span
             display: inline-block
             padding: 0.2em 0.5em
-            border: darken($h1Color, 15%) solid 3px // gold solid 10px
+            border: darken($h2Color, 15%) solid 3px // gold solid 10px
 
     .kicker
         @extend %small-bold
         text-align: center
         letter-spacing: 0.05em
-        color: darken($h1Color, 15%) // white
+        color: darken($h2Color, 15%) // white
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
         line-height: 1
 
@@ -66,5 +66,5 @@ header
             text-align: center
             padding-top: 90px
 
-        h1
+        h2
             padding-top: 0px

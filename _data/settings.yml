@@ -8,10 +8,11 @@ email: chaoscommencer@yahoo.com
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
-- {name: Contact, url: '#contact'}
+- {name: Map, url: '#map'}
+- {name: History, url: '#history'}
+- {name: Locations, url: '#locations'}
+- {name: NPCs, url: '#npcs'} # also include bestiary
+- {name: Campaigns, url: '#campaigns'}
 
 #-------------------------------
 # SEO Section

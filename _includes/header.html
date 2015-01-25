@@ -1,4 +1,10 @@
-<header id="header" class="cf">
+<header id="header"> <!--class="cf"-->
+
+  <div>
+    <h1><!--<span>-->{{ site.data.settings.title }}<!--</span>--></h1>
+
+    <p class="kicker"><em>{{ site.data.settings.description }}</em></p>
+  </div>
     
   <nav>
     <ul>
@@ -7,8 +13,5 @@
       {% endfor %}
     </ul>
   </nav>
-  
-  <h1><!--<span>-->{{ site.data.settings.title }}<!--</span>--></h1>
-  <p class="kicker"><em>{{ site.data.settings.description }}</em></p>
   
 </header>

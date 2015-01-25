@@ -1,4 +1,5 @@
 // Flexible grid
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @function flex-grid($columns, $container-columns: $fg-max-columns) {
   $width: $columns * $fg-column + ($columns - 1) * $fg-gutter;
   $container-width: $container-columns * $fg-column + ($container-columns - 1) * $fg-gutter;
@@ -6,6 +7,7 @@
 }
 
 // Flexible gutter
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @function flex-gutter($container-columns: $fg-max-columns, $gutter: $fg-gutter) {
   $container-width: $container-columns * $fg-column + ($container-columns - 1) * $fg-gutter;
   @return percentage($gutter / $container-width);

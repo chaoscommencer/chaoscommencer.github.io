@@ -12,7 +12,9 @@
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox; // IE 10
+  display: -webkit-flex;
   display: box;
+  display: flex;
 }
 
 @mixin box-orient($orient: inline-axis) {
@@ -24,18 +26,21 @@
 // start|end|center|justify
   @include prefixer(box-pack, $pack, webkit moz spec);
   -ms-flex-pack: $pack; // IE 10
+  // replaced by align-content property
 }
 
 @mixin box-align($align: stretch) {
 // start|end|center|baseline|stretch
   @include prefixer(box-align, $align, webkit moz spec);
   -ms-flex-align: $align; // IE 10
+  // replaced by align-items
 }
 
 @mixin box-direction($direction: normal) {
 // normal|reverse|inherit
   @include prefixer(box-direction, $direction, webkit moz spec);
   -ms-flex-direction: $direction; // IE 10
+  // replaced by flex-direction
 }
 
 @mixin box-lines($lines: single) {

@@ -6,6 +6,7 @@ animation: "bounceOut"
 
 logo: "logo.svg"
 hero: "Mt._Doom_by_Dylan_Cole_by_exsanguinatus.jpg" # "hero-bg.jpg"
+backgroundPattern: "diagonal-table-top_webtreats_light_wood3.png"
 avatar: "travitar.jpg"
 
 # Sizes

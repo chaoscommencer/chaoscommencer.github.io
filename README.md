@@ -13,7 +13,7 @@ In order to get this super fantastic [Jekyll](http://jekyllrb.com) powered templ
 * Move/`cd` to a folder, always in your terminal, in which you want to insert the *Artists-Theme*
 * Run `git clone https://github.com/DevTips/Artists-Theme.git`
 * Then `cd Artists-Theme`
-* `jekyll serve --watch`
+* `jekyll serve --watch` or 'jekyll build --watch', optional parameter: '--force_polling'
 * **DONE**
 
 Isn't it fantastic?
@@ -21,8 +21,51 @@ Isn't it fantastic?
 Learn how to [use Jekyll on windows](http://jekyll-windows.juthilo.com/) (if that's your thing :)
 
 
+//
+Run Jekyll without errors:
+No BOM allowed
+If there are BOM header characters in your UTF-8-encoded files, Jekyll will break. Make sure there are none.
+
+Set your encoding to UTF-8
+Depending on the version of Ruby and/or Jekyll you’re using, your site’s content, and maybe other factors, you may need to make sure Jekyll will read your site’s source as UTF-8.
+
+If you followed this guide step by step or if your versions match the ones in this guide, you shouldn’t need to use any of the following fixes.
+
+Set encoding option
+Since Jekyll v1.3.0, you can specify the encoding in your _config.yml:
+
+encoding: utf-8
+Change console encoding
+Alternatively, you can change your command line tool’s encoding to UTF-8 by running the following command every time you open a new console window.
+
+chcp 65001
+Use subfolders
+Jekyll cannot build or serve sites from certain system-reserved folders on Windows, like your user folder. Instead, it will output an error looking like this:
+
+C:\Users\You>jekyll serve
+Configuration file: C:\Users\You\_config.yml
+            Source: C:\Users\You
+       Destination: C:\Users\You\_site
+      Generating...
+jekyll 2.4.0 | Error: Permission denied - .
+If you encounter such an error, move your site to a subdirectory (e.g., C:\Users\You\awesome-jekyll-site) and try again.
+
+jekyll build
+jekyll build --watch
+jekyll build -w
+jekyll serve
+jekyll serve --watch
+jekyll serve -w
+
+Jekyll Tutorial: https://www.andrewmunsell.com/tutorials/jekyll-by-example/tutorial
+//
+
+
 
 ## Credits
+
+Example Site (Artist-Themes) Design and Tutorials by:
+    Travis Neilson
 
 _Code contributions via pull request:_
 - [Riccardo Pasianotto](http://rkpasia.github.io)
@@ -67,4 +110,4 @@ _Artist Themes in the wild:_
 ---
 
 
-This is a free Jekyll Theme that is currently being developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners).
+This is a free Jekyll Theme that was developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners).

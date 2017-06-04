@@ -10,9 +10,10 @@ avatar: "travitar.jpg"
 
 # Colors
 
-accent: "#c99065"
+accent: "#c99065" # #eeaa00, #cc8800
 
 textColor: "#666"
 headlineColor: "#333"
+h1Color: "#eeaa00"
 bgcolor: "#e5eaee"
 documentBackgroundColor: "#fff"

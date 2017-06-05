@@ -28,7 +28,7 @@ _includes/work/proj-5.html
 _includes/work/proj-6.html
 _includes/work/proj-7.html
 _includes/work/proj-8.html
-assets/css/1-tools/_-tools-dir.sass
+assets/css/1-tools/_-tools-dir.scss
 assets/css/1-tools/_fonts.scss
 assets/css/1-tools/_icon-font.scss
 assets/css/1-tools/_normalize.scss

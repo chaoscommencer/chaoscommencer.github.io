@@ -13,6 +13,8 @@ avatar: "travitar.jpg"
 accent: "#c99065" # #eeaa00, #cc8800
 
 textColor: "#666"
+# TO DO: Determine why linkColor property was removed and handle appropriately
+linkColor: darken($h1Color, 15%) # "#c99065"
 headlineColor: "#333"
 h1Color: "#eeaa00"
 bgcolor: "#e5eaee"

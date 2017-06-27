@@ -35,6 +35,21 @@
     border-radius: 20px
 }
 
+@keyframes test {
+    0%   {
+        height: 100vh;
+        width: 100%;
+    }
+    50%  {
+        height: 70vh;
+        width: 70%;
+    }
+    100% {
+        height: 100vh;
+        width: 100%;
+    }
+}
+
 .internal:after {
     position: fixed;
 /*    display: none;*/
@@ -43,6 +58,12 @@
     // z-index: -1;
     height: 100vh;
     width: 100%;
+    
+    animation-name: test;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    
     /* Safari 5.1 to 6.0 */
     background: -webkit-radial-gradient(85% 20%, farthest-side, rgba(255,187,34,1), rgba(0,0,0,0));
     /* Opera 11.6 to 12.0 */

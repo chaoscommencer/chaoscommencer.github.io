@@ -99,6 +99,8 @@ _A big thank you to these creators for contributing sample projects for the "wor
 - [Jonathan Quintin](https://www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX)
 - [Jieyu Xiong](https://www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
 
+- [Dylan Cole](exsanguinatus on DeviantArt for Mt. Doom image)
+
 
 ![The Design](/assets/img/the_design.jpg)
 

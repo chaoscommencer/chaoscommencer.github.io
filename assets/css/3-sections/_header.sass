@@ -33,24 +33,23 @@ header
     font:
       size: 72px
       weight: 700
-    color: white
+    color: $h1Color // gold
     text-transform: uppercase
     letter-spacing: 0.05em
     margin-bottom: 20px
     clear: both
     padding-top: 100px
 
-
     span
       display: inline-block
       padding: 0.2em 0.5em
-      border: white solid 10px
+      border: darken($h1Color, 15%) solid 3px // gold solid 10px
 
   .kicker
     @extend %small-bold
     text-align: center
     letter-spacing: 0.05em
-    color: white
+    color: darken($h1Color, 15%) // white
     line-height: 1
 
 @media (max-width: 640px)

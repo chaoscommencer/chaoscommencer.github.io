@@ -134,7 +134,7 @@ assets/css/3-sections/_form-success.scss
 assets/css/3-sections/_header.sass
 assets/css/3-sections/_work.sass
 
-assets/css/all.sass
+assets/css/all.scss
 
 assets/img/clients/face-aaroni.jpg
 assets/img/clients/face-atariboy.jpg

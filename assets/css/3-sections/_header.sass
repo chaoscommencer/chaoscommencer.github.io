@@ -33,8 +33,12 @@ header
     font:
       size: 72px
       weight: 700
+      family: $helvetica // $lucida-grande
     color: $h1Color // gold
-    text-transform: uppercase
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+    // -webkit-text-fill-color: $h1Color
+    // -webkit-text-stroke: 1px black
+    // text-transform: uppercase
     letter-spacing: 0.05em
     margin-bottom: 20px
     clear: both
@@ -50,6 +54,7 @@ header
     text-align: center
     letter-spacing: 0.05em
     color: darken($h1Color, 15%) // white
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
     line-height: 1
 
 @media (max-width: 640px)

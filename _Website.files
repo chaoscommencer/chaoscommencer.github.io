@@ -120,7 +120,7 @@ assets/css/1-tools/_icon-font.scss
 assets/css/1-tools/_normalize.scss
 assets/css/1-tools/_spinner.scss
 
-assets/css/2-base/_-base-dir.sass
+assets/css/2-base/_-base-dir.scss
 assets/css/2-base/_base.sass
 assets/css/2-base/_placeholders.sass
 

@@ -211,6 +211,8 @@ work/proj-8.md
 
 .gitignore
 _config.yml
+_Website.cflags
+_Website.cxxflags
 1001fonts-flesh-wound-eula.txt
 favicon.ico
 Flesh Wound.ttf

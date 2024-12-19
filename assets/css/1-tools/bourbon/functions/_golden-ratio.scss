@@ -1,3 +1,4 @@
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @function golden-ratio($value, $increment) {
   @return modular-scale($value, $increment, $golden)
 }

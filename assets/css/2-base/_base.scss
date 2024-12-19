@@ -6,35 +6,41 @@
     font-weight: bold;
 }
 
-.gigantic {
-    font-size: 110px;
+.gigantic, h1 {
+    color: $h1Color;
+    font-size: $h1Size;
     line-height: 1.09;
     letter-spacing: -2px;
 }
 
-.huge, h1 {
-    font-size: 68px;
+.huge, h2 {
+    color: $h2Color;
+    font-size: $h2Size;
     line-height: 1.05;
     letter-spacing: -1px;
 }
 
-.large, h2 {
-    font-size: 42px;
+.large, h3 {
+    color: $h3Color;
+    font-size: $h3Size;
     line-height: 1.14;
 }
 
-.bigger, h3 {
-    font-size: 26px;
+.bigger, h4 {
+    color: $h4Color;
+    font-size: $h4Size;
     line-height: 1.38;
 }
 
-.big, h4 {
-    font-size: 22px;
+.big, h5 {
+    color: $h5Color;
+    font-size: $h5Size;
     line-height: 1.38;
 }
 
-.small, small {
-    font-size: 10px;
+.small, small, h6 {
+    color: $h6Color;
+    font-size: $h6Size;
     line-height: 1.2;
 }
 
@@ -117,9 +123,8 @@ svg {
     +size(100%);
 }
 
-h3 {
+h4 {
     @extend %small-bold;
-    color: $accent-light;
     text-align: center;
     padding: 100px 0 30px;
 }
@@ -131,7 +136,7 @@ fieldset {
 }
 
 @media screen and (max-width: 480px) {
-    h3 {
+    h4 {
         padding: 50px 0 50px;
     }
 }
@@ -140,7 +145,7 @@ section:nth-child(odd) {
     background: $bgcolor;
     padding-bottom: 100px;
 
-    h3 {
+    h4 {
         color: darken($accent-light, 10%);
     }
 }

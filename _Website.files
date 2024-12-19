@@ -132,7 +132,7 @@ assets/css/3-sections/_footer.sass
 assets/css/3-sections/_form.sass
 assets/css/3-sections/_form-success.scss
 assets/css/3-sections/_header.sass
-assets/css/3-sections/_internal.sass
+assets/css/3-sections/_internal.scss
 assets/css/3-sections/_work.sass
 
 assets/css/all.scss

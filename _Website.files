@@ -215,6 +215,8 @@ _config.yml
 favicon.ico
 Flesh Wound.ttf
 Flesh Wound.woff2
+flesh_wound-webfont.woff
+flesh_wound-webfont.woff2
 form-success.html
 index.html
 LICENSE

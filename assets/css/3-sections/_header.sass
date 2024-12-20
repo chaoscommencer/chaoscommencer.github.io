@@ -12,24 +12,34 @@ header
         image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
     
     nav
-        // float: right
-        // padding: 30px 30px 0 0
-        // margin: 0px auto
         top: 100%
         position: relative
         display: block
-        text-align: center
     
-        a
-            display: inline-block
-            // margin-left: 20px
+        ul
+            margin: 0px auto
+            padding: 0px
+            list-style: none inside
+            display: flex
+            flex-flow: row wrap
+            align-content: space-around
+            justify-content: center
 
-            // color: rgba(0,0,0,0.7)
-            @extend %small-bold
-      
-            // &:hover
-            // color: rgba(0,0,0,1)
-    
+            li
+                float: left
+                margin: 0px 10px
+
+                a
+                    @extend %small-bold
+                    text-align: center
+                    // display: inline-block
+                    // margin-left: 20px
+
+                    // color: rgba(0,0,0,0.7)
+
+                    // &:hover
+                    // color: rgba(0,0,0,1)
+
     h1
         text-align: center
         font:

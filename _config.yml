@@ -7,7 +7,7 @@ highlighter: pygments
 markdown: kramdown
 permalink: pretty
 
-port: 8000
+port: 8080
 
 include: ['_includes/work']
 exclude: ['the_design.psd']

@@ -15,15 +15,16 @@ $projects: {% for project in site.data.settings.projects %} "{{ project.folder }
 //------------------------------------------------
 // Set some colors as sass variables
 
+$documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }};
+$bgcolor: {{ site.data.layout.bgcolor }};
+$headlineColor: {{ site.data.layout.headlineColor }};
+
+$h1Color: {{ site.data.layout.h1Color }};
+$pColor: {{ site.data.layout.pColor }};
+
 $accent: {{ site.data.layout.accent }};
 $accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%);
 $selectionColor: lighten($accent, 30%);
-
-$pColor: {{ site.data.layout.pColor }};
-$headlineColor: {{ site.data.layout.headlineColor }};
-$h1Color: {{ site.data.layout.h1Color }};
-$bgcolor: {{ site.data.layout.bgcolor }};
-$documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }};
 
 @import '2-base/-base-dir';
 @import '3-sections/-sections-dir';

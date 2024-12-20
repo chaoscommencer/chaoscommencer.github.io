@@ -8,6 +8,16 @@ logo: "logo.svg"
 hero: "Mt._Doom_by_Dylan_Cole_by_exsanguinatus.jpg" # "hero-bg.jpg"
 avatar: "travitar.jpg"
 
+# Sizes
+
+h1Size: 110px
+h2Size: 68px
+h3Size: 42px
+h4Size: 26px
+h5Size: 22px
+h6Size: 10px
+pSize: 14px
+
 # Colors
 
 documentBackgroundColor: "#fff"
@@ -15,6 +25,11 @@ bgcolor: "#e5eaee"
 headlineColor: "#333"
 
 h1Color: "#eeaa00"
+h2Color: "#eeaa00"
+h3Color: darken($h1Color, 15%)
+h4Color: darken($h1Color, 15%)
+h5Color: darken($h1Color, 15%)
+h6Color: darken($h1Color, 15%)
 pColor: "#666" # "#000000"
 
 accent: "#c99065" # #eeaa00, #cc8800

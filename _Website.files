@@ -28,7 +28,7 @@ _includes/form.html
 _includes/header.html
 _includes/work.html
 
-assets/css/1-tools/animations/_animations-dir.sass
+assets/css/1-tools/animations/_animations-dir.scss
 assets/css/1-tools/animations/_bottomDoor.sass
 assets/css/1-tools/animations/_bottomUp.sass
 assets/css/1-tools/animations/_bounceOut.scss

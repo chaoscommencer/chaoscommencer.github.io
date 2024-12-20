@@ -100,6 +100,7 @@ _A big thank you to these creators for contributing sample projects for the "wor
 - [Jieyu Xiong](https://www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
 
 - [Dylan Cole](https://dylancolestudio.com) (a.k.a. exsanguinatus on DeviantArt) for Mt. Doom image.
+- [webtreats](https://www.flickr.com/people/webtreatsetc) for table-top (background) image.
 
 
 ![The Design](/assets/img/the_design.jpg)

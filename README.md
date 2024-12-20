@@ -1,4 +1,4 @@
-# Artists Theme
+# Chambers of Chaos
 
 This site is being built on YouTube, one week at a time. See all the videos up to date here: [How to build a professional website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
 
@@ -99,6 +99,8 @@ _A big thank you to these creators for contributing sample projects for the "wor
 - [Nick Zoutendijk](https://www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set)
 - [Jonathan Quintin](https://www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX)
 - [Jieyu Xiong](https://www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
+
+-[Dylan Cole](exsanguinatus on DeviantArt for Mt. Doom image)
 
 
 ![The Design](/assets/img/the_design.jpg)

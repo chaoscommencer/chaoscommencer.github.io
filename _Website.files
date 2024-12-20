@@ -114,7 +114,7 @@ assets/css/1-tools/bourbon/settings/_px-to-em.scss
 assets/css/1-tools/bourbon/_bourbon-deprecated-upcoming.scss
 assets/css/1-tools/bourbon/_bourbon.scss
 
-assets/css/1-tools/_-tools-dir.sass
+assets/css/1-tools/_-tools-dir.scss
 assets/css/1-tools/_fonts.scss
 assets/css/1-tools/_icon-font.scss
 assets/css/1-tools/_normalize.scss

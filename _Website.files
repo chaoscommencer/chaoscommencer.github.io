@@ -200,6 +200,8 @@ _Website.cflags
 _Website.cxxflags
 favicon.ico
 form-success.html
+Gemfile
+Gemfile.lock
 index.html
 LICENSE
 README.md

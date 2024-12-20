@@ -1,5 +1,11 @@
 <header id="header" class="cf">
 
+  <div>
+    <h2><!--<span>-->{{ site.data.settings.title }}<!--</span>--></h2>
+
+    <p class="kicker"><em>{{ site.data.settings.description }}</em></p>
+  </div>
+
   <nav>
     <ul>
       {% for item in site.data.settings.menu %}
@@ -7,8 +13,5 @@
       {% endfor %}
     </ul>
   </nav>
-
-  <h2><!--<span>-->{{ site.data.settings.title }}<!--</span>--></h2>
-  <p class="kicker"><em>{{ site.data.settings.description }}</em></p>
 
 </header>

@@ -1,7 +1,28 @@
 body {
     background: #223322; // #553000 // to be replaced with image
 }
+
+.internal:before {
+    content: "";
+    background: {
+        image: url(../img/table-top_webtreats_light_wood3.png);
+        repeat: repeat;
+    }
+    height: 300vmax;
+    width: 300vmax;
+    position: fixed;
+    top: -150vmax;
+    left: -150vmax;
+    z-index: -1;
+    // transform-origin missing is causing bug;
+    -webkit-transform: rotate(45deg) translate(50vw, 50vh);
+    -moz-transform: rotate(45deg) translate(50vw, 50vh);
+    -o-transform: rotate(45deg) translate(50vw, 50vh);
+    -ms-transform: rotate(45deg) translate(50vw, 50vh);
+}
+
 .internal {
+    overflow: hidden;
     margin: 21.5vh auto;
     // padding: 3.5vh 10vh;
     width: 80vw;

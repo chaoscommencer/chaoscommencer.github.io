@@ -11,6 +11,9 @@ avatar: "travitar.jpg"
 # Colors
 
 accent: "#c99065" # #eeaa00, #cc8800
+# TO DO: sass/scss files currently using a flavor of accent color directly instead
+# linkColor: darken($h1Color, 15%) # "#c99065"
+h1Color: "#eeaa00"
 
 textColor: "#666"
 headlineColor: "#333"

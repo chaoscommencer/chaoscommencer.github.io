@@ -13,10 +13,26 @@ avatar: "travitar.jpg"
 accent: "#c99065" # #eeaa00, #cc8800
 accent-light: "#e1c184"
 bgcolor: "#e5eaee"
+
 h1Color: "#eeaa00"
+h2Color: "#eeaa00"
+h3Color: darken($h1Color, 15%)
+h4Color: darken($h1Color, 15%)
+h5Color: darken($h1Color, 15%)
+h6Color: darken($h1Color, 15%)
+pColor: "#666" # "#000000"
+
+# Sizes
+
+h1Size: 110px
+h2Size: 68px
+h3Size: 42px
+h4Size: 26px
+h5Size: 22px
+h6Size: 10px
+pSize: 14px
 
 documentBackgroundColor: "#fff"
 headlineColor: "#333"
-textColor: "#666"
 linkColor: darken($h1Color, 15%) # "#c99065"
 selectionColor: "#ffff9e"

@@ -125,6 +125,7 @@ assets/css/1-tools/_-tools-dir.scss
 assets/css/1-tools/_fonts.scss
 assets/css/1-tools/_icon-font.scss
 assets/css/1-tools/_normalize.scss
+assets/css/1-tools/_simple-flexbox.scss
 assets/css/1-tools/_spinner.scss
 
 assets/css/2-base/_-base-dir.scss

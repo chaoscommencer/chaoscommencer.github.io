@@ -35,7 +35,6 @@ assets/css/1-tools/animations/_rightLeft.sass
 assets/css/1-tools/animations/_textSlide.sass
 assets/css/1-tools/animations/_topDoor.sass
 assets/css/1-tools/animations/_topDown.sass
-assets/css/1-tools/bourbon/addons/_button.scss
 assets/css/1-tools/bourbon/addons/_clearfix.scss
 assets/css/1-tools/bourbon/addons/_directional-values.scss
 assets/css/1-tools/bourbon/addons/_ellipsis.scss
@@ -71,14 +70,16 @@ assets/css/1-tools/bourbon/css3/_linear-gradient.scss
 assets/css/1-tools/bourbon/css3/_perspective.scss
 assets/css/1-tools/bourbon/css3/_placeholder.scss
 assets/css/1-tools/bourbon/css3/_radial-gradient.scss
+assets/css/1-tools/bourbon/css3/_selection.scss
+assets/css/1-tools/bourbon/css3/_text-decoration.scss
 assets/css/1-tools/bourbon/css3/_transform.scss
 assets/css/1-tools/bourbon/css3/_transition.scss
 assets/css/1-tools/bourbon/css3/_user-select.scss
 assets/css/1-tools/bourbon/functions/_assign.scss
 assets/css/1-tools/bourbon/functions/_color-lightness.scss
-assets/css/1-tools/bourbon/functions/_flex-grid.scss
-assets/css/1-tools/bourbon/functions/_golden-ratio.scss
-assets/css/1-tools/bourbon/functions/_grid-width.scss
+assets/css/1-tools/bourbon/functions/_contains.scss
+assets/css/1-tools/bourbon/functions/_is-length.scss
+assets/css/1-tools/bourbon/functions/_is-size.scss
 assets/css/1-tools/bourbon/functions/_modular-scale.scss
 assets/css/1-tools/bourbon/functions/_px-to-em.scss
 assets/css/1-tools/bourbon/functions/_px-to-rem.scss
@@ -87,6 +88,7 @@ assets/css/1-tools/bourbon/functions/_tint-shade.scss
 assets/css/1-tools/bourbon/functions/_transition-property-name.scss
 assets/css/1-tools/bourbon/functions/_unpack.scss
 assets/css/1-tools/bourbon/helpers/_convert-units.scss
+assets/css/1-tools/bourbon/helpers/_font-source-declaration.scss
 assets/css/1-tools/bourbon/helpers/_gradient-positions-parser.scss
 assets/css/1-tools/bourbon/helpers/_is-num.scss
 assets/css/1-tools/bourbon/helpers/_linear-angle-parser.scss
@@ -99,6 +101,7 @@ assets/css/1-tools/bourbon/helpers/_radial-positions-parser.scss
 assets/css/1-tools/bourbon/helpers/_render-gradients.scss
 assets/css/1-tools/bourbon/helpers/_shape-size-stripper.scss
 assets/css/1-tools/bourbon/helpers/_str-to-num.scss
+assets/css/1-tools/bourbon/settings/_asset-pipeline.scss
 assets/css/1-tools/bourbon/settings/_prefixer.scss
 assets/css/1-tools/bourbon/settings/_px-to-em.scss
 assets/css/1-tools/bourbon/_bourbon-deprecated-upcoming.scss

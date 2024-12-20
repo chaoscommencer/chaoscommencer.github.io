@@ -77,15 +77,14 @@ header
                 flex-shrink: 1 // scalar on size for shrinking where necessary (>= 0)...
                 flex-basis: 85px // default size
                 // align-self: // overrides align-items for a given subset of items
-                // float: left
 
                 a
                     @extend %small-bold
-                    display: inherit
+                    display: inherit // block
+                    // display: inline-block // doesn't work anymore
                     text-align: center
                     background: #673700
                     border: 2px solid #0C0C0C
-                    // display: inline-block
                     // margin-left: 20px
 
                     // color: rgba(0,0,0,0.7)

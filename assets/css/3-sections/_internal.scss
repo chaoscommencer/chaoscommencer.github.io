@@ -65,13 +65,13 @@
     animation-timing-function: ease;
     
     /* Safari 5.1 to 6.0 */
-    background: -webkit-radial-gradient(85% 20%, farthest-side, rgba(255,187,34,1), rgba(0,0,0,0));
+    background: -webkit-radial-gradient(85% 20%, farthest-side, rgba(255,127,34,1), rgba(0,0,0,0));
     /* Opera 11.6 to 12.0 */
-    background: -o-radial-gradient(85% 20%, farthest-side, rgba(255,187,34,1), rgba(0,0,0,0));
+    background: -o-radial-gradient(85% 20%, farthest-side, rgba(255,127,34,1), rgba(0,0,0,0));
     /* For Firefox 3.6 to 15 */
-    background: -moz-radial-gradient(85% 20%, farthest-side, rgba(255,187,34,1), rgba(0,0,0,0));
+    background: -moz-radial-gradient(85% 20%, farthest-side, rgba(255,127,34,1), rgba(0,0,0,0));
     /* Standard syntax */
-    background: radial-gradient(farthest-side at 85% 20%, rgba(255,187,34,1), rgba(0,0,0,0));
+    background: radial-gradient(farthest-side at 85% 20%, rgba(255,127,34,1), rgba(0,0,0,0));
     background: {
         size: cover; // 100vmax 100vmax;
 /*        image: radial-gradient(../img/diagonal-table-top_webtreats_light_wood3.png);*/

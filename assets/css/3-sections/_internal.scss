@@ -26,7 +26,11 @@
     // padding: 3.5vh 10vh;
     width: 80vw;
     height: 2000px;
-    background: tan;
+    background: {
+        size: 100% auto;
+        image: url("../img/scroll texture.png");
+        repeat: repeat-y;
+    }
     border: 2px solid black;
     border-radius: 20px;
 }

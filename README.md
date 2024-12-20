@@ -101,6 +101,7 @@ _A big thank you to these creators for contributing sample projects for the "wor
 
 - [Dylan Cole](https://dylancolestudio.com) (a.k.a. exsanguinatus on DeviantArt) for Mt. Doom image.
 - [webtreats](https://www.flickr.com/people/webtreatsetc) for table-top (background) image.
+- [Zita Banyai](https://zitabanyai.artstation.com/resume) (a.k.a. moonlight4ngel, a.k.a. moondustowl, a.k.a painted-leaf) for papyrus (scroll background) image.
 
 
 ![The Design](/assets/img/the_design.jpg)

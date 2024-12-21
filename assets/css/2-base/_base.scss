@@ -114,7 +114,8 @@ body {
 }
 
 svg {
-    size: 100% 100%;
+    // NOTE: SCSS mixins require the '@include ' prefix instead of the '+' prefix required by SASS mixins
+    @include size(100%);
 }
 
 h3 {

@@ -41,15 +41,22 @@
 /// @require {function} _unpack-shorthand
 
 @mixin position(
-  $position,
-  $box-edge-values
+  $position: relative,
+  $coordinates: null null null null
 ) {
-  $box-edge-values: _unpack($box-edge-values);
+
+  @if type-of($position) == list {
+    $coordinates: $position;
+    $position: relative;
+  }
+
+  $coordinates: unpack($coordinates);
+
   $offsets: (
-    "top": nth($box-edge-values, 1),
-    "right": nth($box-edge-values, 2),
-    "bottom": nth($box-edge-values, 3),
-    "left": nth($box-edge-values, 4),
+    top:    nth($coordinates, 1),
+    right:  nth($coordinates, 2),
+    bottom: nth($coordinates, 3),
+    left:   nth($coordinates, 4)
   );
 
   position: $position;

@@ -1,17 +1,24 @@
 header
+    clip: shape
     @extend %background-image
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z: 100
+    height: 18vh
     background:
         position: 30px 20px, 50% 50%
         image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
-    padding-bottom: 50px
+    // padding-bottom: 50px
 
-    .logo
-        +size(50px)
-        float: left
-        margin: 10px 0 0 30px
-
-        path
-            fill: rgba(0,0,0,0.4)
+    // .logo
+    //     +size(50px)
+    //     float: left
+    //     margin: 10px 0 0 30px
+    //
+    //     path
+    //         fill: rgba(0,0,0,0.4)
 
     nav
         float: right

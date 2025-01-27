@@ -1,64 +1,24 @@
-body {
-    // position: fixed;
-    background: #223322; // #553000 // to be replaced with image
-    /*background: {
-        image: url(../img/diagonal-table-top_webtreats_light_wood3.png);
-        repeat: repeat;
-    }
+#root {
+    // background: #223322; // #553000 // to be replaced with image
     height: 100vh;
-    width: 100vw;*/
+    width: 100%;
+
+    /* Safari 5.1 to 6.0 */
+/*    background: -webkit-radial-gradient(90% 15%, farthest-side, rgba(0,0,0,1), rgba(0,0,0,0));*/
+    /* Opera 11.6 to 12.0 */
+/*    background: -o-radial-gradient(90% 15%, farthest-side, rgba(0,0,0,1), rgba(0,0,0,0));*/
+    /* For Firefox 3.6 to 15 */
+/*    background: -moz-radial-gradient(90% 15%, farthest-side, rgba(0,0,0,1), rgba(0,0,0,0));*/
+    /* Standard syntax */
+
+    background: {
+        attachment: /*fixed,*/ fixed;
+        size: /*100vmax 100vmax,*/ 100vw 100vw;
+        image: /*radial-gradient(farthest-side at 85% 20%, rgba(255,187,34,1), rgba(0,0,0,0)),*/ url(../img/#{$backgroundPattern});
+        repeat: /*no-repeat,*/ repeat;
+        blend-mode: /*overlay,*/ normal;
+    }
 }
-
-/*.background {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    // content: "";
-    background: {
-        size: 100vw 100vw;
-        image: url(../img/diagonal-table-top_webtreats_light_wood3.png);
-        repeat: repeat;
-        blend-mode: normal;
-    }
-    height: 100vh;
-    width: 100vw;
-}*/
-
-.internal:before {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
-    background: {
-        size: 100vw 100vw;
-        image: url(../img/diagonal-table-top_webtreats_light_wood3.png);
-        repeat: repeat;
-        blend-mode: normal;
-    }
-    content: "";
-}
-
-/*.internal:before {
-    content: "";
-    background: {
-        image: url(../img/diagonal-table-top_webtreats_light_wood3.png);
-        repeat: repeat;
-    }
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    // top: -150vmax;
-    // left: -150vmax;
-    z-index: -1;
-    // transform-origin missing is causing bug;
-    // -webkit-transform: rotate(45deg) translate(50vw, 50vh);
-    // -moz-transform: rotate(45deg) translate(50vw, 50vh);
-    // -o-transform: rotate(45deg) translate(50vw, 50vh);
-    // -ms-transform: rotate(45deg) translate(50vw, 50vh);
-}*/
 
 .internal {
     overflow: hidden;

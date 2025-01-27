@@ -13,6 +13,16 @@ $avatar-path: '{{ site.data.layout.avatar }}';
 $projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %};
 
 //------------------------------------------------
+// Set some sizes as sass variables
+$h1Size: {{ site.data.layout.h1Size }};
+$h2Size: {{ site.data.layout.h2Size }};
+$h3Size: {{ site.data.layout.h3Size }};
+$h4Size: {{ site.data.layout.h4Size }};
+$h5Size: {{ site.data.layout.h5Size }};
+$h6Size: {{ site.data.layout.h6Size }};
+$pSize: {{ site.data.layout.pSize }};
+
+//------------------------------------------------
 // Set some colors as sass variables
 
 $documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }};
@@ -20,6 +30,11 @@ $bgcolor: {{ site.data.layout.bgcolor }};
 $headlineColor: {{ site.data.layout.headlineColor }};
 
 $h1Color: {{ site.data.layout.h1Color }};
+$h2Color: {{ site.data.layout.h2Color }};
+$h3Color: {{ site.data.layout.h3Color }};
+$h4Color: {{ site.data.layout.h4Color }};
+$h5Color: {{ site.data.layout.h5Color }};
+$h6Color: {{ site.data.layout.h6Color }};
 $pColor: {{ site.data.layout.pColor }};
 
 $accent: {{ site.data.layout.accent }};

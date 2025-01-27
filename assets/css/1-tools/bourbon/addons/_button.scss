@@ -1,3 +1,4 @@
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @mixin button ($style: simple, $base-color: #4294f0, $text-size: inherit, $padding: 7px 18px) {
 
   @if type-of($style) == string and type-of($base-color) == color {
@@ -57,6 +58,7 @@
 
 // Selector Style Button
 //************************************************************************//
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @mixin buttonstyle($type, $b-color, $t-size, $pad) {
   // Grayscale button
   @if $type == simple and $b-color == grayscale($b-color) {
@@ -96,6 +98,7 @@
 
 // Simple Button
 //************************************************************************//
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @mixin simple($base-color, $grayscale: false, $textsize: inherit, $padding: 7px 18px) {
   $color:         hsl(0, 0, 100%);
   $border:        adjust-color($base-color, $saturation:  9%,  $lightness: -14%);
@@ -162,6 +165,7 @@
 
 // Shiny Button
 //************************************************************************//
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @mixin shiny($base-color, $grayscale: false, $textsize: inherit, $padding: 7px 18px) {
   $color:         hsl(0, 0, 100%);
   $border:        adjust-color($base-color, $red: -117, $green: -111, $blue: -81);
@@ -236,6 +240,7 @@
 
 // Pill Button
 //************************************************************************//
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @mixin pill($base-color, $grayscale: false, $textsize: inherit, $padding: 7px 18px) {
   $color:         hsl(0, 0, 100%);
   $border-bottom: adjust-color($base-color, $hue:  8, $saturation: -11%, $lightness: -26%);
@@ -331,6 +336,7 @@
 
 // Flat Button
 //************************************************************************//
+// WARNING: Deprecated, moved to _bourbon-deprecated-upcoming.scss
 @mixin flat($base-color, $grayscale: false, $textsize: inherit, $padding: 7px 18px) {
   $color:         hsl(0, 0, 100%);
 

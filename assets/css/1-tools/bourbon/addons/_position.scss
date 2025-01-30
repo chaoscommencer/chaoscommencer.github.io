@@ -44,7 +44,7 @@
   $position,
   $box-edge-values
 ) {
-  $box-edge-values: _unpack($box-edge-values);
+  $box-edge-values: unpack($box-edge-values);
   $offsets: (
     "top": nth($box-edge-values, 1),
     "right": nth($box-edge-values, 2),
